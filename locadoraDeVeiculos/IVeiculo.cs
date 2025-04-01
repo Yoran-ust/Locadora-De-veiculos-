@@ -12,7 +12,7 @@ namespace locadoraDeVeiculos
         public string Modelo { get; set; }
         public string Marca { get; set; }
         public int Ano { get; set; }
-        public double valorBase {get; set; }
-        double CalcularAluguel(int dias);
+        public decimal valorBase {get; set; }
+        public decimal CalcularAluguel(int dias);
     }
 }
