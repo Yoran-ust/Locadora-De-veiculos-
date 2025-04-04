@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace locadoraDeVeiculos
 {
-    public class Carro : Veiculo, IVeiculo
+    public class Carro : Veiculo
     {
-
-        public Carro(string modelo, string marca, int ano, decimal valorbase) : base(modelo, marca, ano, valorbase)
-        {
-
-        }
+        public Carro(string modelo, string marca, int ano, decimal valorBase)
+            : base(modelo, marca, ano, valorBase) { }
     }
 }

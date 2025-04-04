@@ -25,7 +25,7 @@ namespace locadoraDeVeiculos
 
         public virtual decimal CalcularAluguel(int dias)
         {
-            return 0;
+            return valorBase * dias;
         }
     }
 
