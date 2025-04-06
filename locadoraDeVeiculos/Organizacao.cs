@@ -8,13 +8,6 @@ namespace locadoraDeVeiculos
 {
     public class Organizacao
     {
-        public static void ExibirMenu()
-        {
-            while (true)
-            {
-                Console.
-            }
-        }
     }
 
 }
